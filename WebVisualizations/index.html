@@ -11,12 +11,20 @@
   <div class="container">
     <div class="row">
       <div class="col-8">
-        <a href="index.html" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">Latitude Analysis Dashboard</a>
+        <a href="index.html" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">Latitude
+          Analysis Dashboard</a>
       </div>
       <div class="col-4">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="plot.html">Plots</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="index.html" role="button"
+              aria-haspopup="true" aria-expanded="false">Plots</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="LatVsMaxTemp.html">Max Temp</a>
+              <a class="dropdown-item" href="LatVsHumidity.html">Humidity</a>
+              <a class="dropdown-item" href="LatVsCloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="LatVsWindiness.html">Windiness</a>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="comparisions.html">Comparisons</a>
@@ -31,8 +39,6 @@
 </head>
 
 <body>
-
-
   <div class="container">
     <div class="row">
       <div class="col-md-8">
@@ -60,14 +66,22 @@
           <h2>Visualizations</h2>
           <hr />
           <div class="row-col-md-2">
-            <img src="visualizations/MaxTempVsLat.png" alt="A scatter plot of maximum temeratures versus latitude"
-              width="160" height="160" />
-            <img src="visualizations/HumidityVsLat.png" alt="A scatter plot of humidty versus latitude" width="160"
-              height="160" />
-            <img src="visualizations/CloudsVsLat.png" alt="A scatter plot of cloudiness versus latitude" width="160"
-              height="160" />
-            <img src="visualizations/WindVsLat.png" alt="A scatter plot of windiness versus latitude" width="160"
-              height="160" />
+            <a href="LatVsMaxTemp.html">
+              <img src="visualizations/MaxTempVsLat.png" alt="A scatter plot of maximum temeratures versus latitude"
+                width="160" height="160" />
+            </a>
+            <a href="LatVsHumidity.html">
+              <img src="visualizations/HumidityVsLat.png" alt="A scatter plot of humidty versus latitude" width="160"
+                height="160" />
+            </a>
+            <a href="LatVsCloudiness.html">
+              <img src="visualizations/CloudsVsLat.png" alt="A scatter plot of cloudiness versus latitude" width="160"
+                height="160" />
+            </a>
+            <a href="LatVsWindiness.html">
+              <img src="visualizations/WindVsLat.png" alt="A scatter plot of windiness versus latitude" width="160"
+                height="160" />
+            </a>
           </div>
         </div>
       </div>
