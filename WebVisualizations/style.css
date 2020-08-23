@@ -1,5 +1,9 @@
 
 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: gray;
     padding: 20px;
 }
 
