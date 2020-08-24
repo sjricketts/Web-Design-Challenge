@@ -46,43 +46,54 @@
 </head>
 
 <body>
-    <div class="box">
+    <!-- <div class="box"> -->
         <h2>Comparision: Latitude vs. X</h2>
         <hr />
         <p>Click any plot for an in-depth analysis.</p>
 
         <div class="container">
-        
             <div class="row">
                 <div class="col-sm-3 col-md-6">
-                    <div class="box">
-                        <h3>vs. Max Temperature</h3>
-                        <a href="LatVsMaxTemp.html"> <img src="visualizations/MaxTempVsLat.png"
-                                alt="A scatter plot of maximum temeratures versus latitude" />
-                        </a>
-                        <h3>vs. Humidty</h3>
-                        <img src="visualizations/HumidityVsLat.png" alt="A scatter plot of humidty versus latitude" />
-                    </div>
+                    <h3>vs. Max Temperature</h3>
+                    <a href="LatVsMaxTemp.html"> <img src="visualizations/MaxTempVsLat.png"
+                            alt="A scatter plot of maximum temeratures versus latitude" id="responsive_img" />
+                    </a>
+                </div>
+                <div class="col-sm-3 col-md-6">
+                    <h3>vs. Humidty</h3>
+                    <a href="LatVsHumidity.html"> <img src="visualizations/HumidityVsLat.png" alt="A scatter plot of humidty versus latitude"  id="responsive_img"/>
+
+                    </a>
                 </div>
             </div>
-            
             <div class="row">
                 <div class="col-sm-3 col-md-6">
-                    <div class="box">
-                        <h3>vs. Cloudiness</h3>
-                        <a href="LatVsCloudiness.html"> <img src="visualizations/CloudsVsLat.png"
-                                alt="A scatter plot of maximum cloudiness versus latitude" />
-                        </a>
-                        <h3>vs. Wind Speed</h3>
-                        <a href="LatVsWindiness.html"> <img src="visualizations/WindVsLat.png"
-                                alt="A scatter plot of wind speed versus latitude" />
-                        </a>
-                    </div>
+                    <h3>vs. Cloudiness</h3>
+                    <a href="LatVsCloudiness.html"> <img src="visualizations/CloudsVsLat.png"
+                            alt="A scatter plot of maximum cloudiness versus latitude" id="responsive_img" />
+                    </a>
+                </div>
+                <div class="col-sm-3 col-md-6">
+                    <h3>vs. Wind Speed</h3>
+                    <a href="LatVsWindiness.html"> <img src="visualizations/WindVsLat.png"
+                            alt="A scatter plot of wind speed versus latitude" id="responsive_img" />
+                    </a>
                 </div>
             </div>
 
+            <!--             
+            <div class="row">
+                <div class="col-sm-3 col-md-6">
+                    <div class="box">
+                        
+                        
+                    </div>
+                </div>
+            </div> -->
+
         </div>
-    </div>
+
+    <!-- </div> -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
